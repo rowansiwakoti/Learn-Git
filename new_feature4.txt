@@ -1,0 +1,1136 @@
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
+GIT BASICS
+----------
+
+Download and Install git and after installing go to (1) & (2):
+
+1) git config --global user.name "rowansiwakoti" 
+2) git config --global user.email "rowansiwakoti@gmail.com"
+   
+   git config --list
+   git remote -v
+   git config user.email , git config user.name
+   git help commit
+   git diff
+
+
+3) git add .
+   git add -A
+   git add --all
+
+4) git commit -m message filenameWithExtension --> for a specific file
+   git commit -m "message" --> for multiple files
+
+5) git remote add origin repoLink
+
+6) git push origin master
+
+git clone repoLink --> if someone needs a remote repo locally
+git pull origin master --> user 1 pushes new files and user 2 pulls those files
+
+
+GIT ADVANCED
+------------
+git branch (list all the branches)
+
+git branch branchName
+git branch "branchName"
+                           git checkout -b branchName --> shortcut 
+git checkout branchName
+git checkout "branchName"
+
+if you want to merge any branch in master, you have to into master branch first then,
+git merge branchName  --> merges branch
+
+git branch -d branchName --> deletes branch
+
+
+
+
+git log
+git log -2 --> if you want to see last 2 commits
+git log --oneline --> if you want to see only commit messages
+git log -2 --oneline --> only commit messages of last 2 commits
+git log --author="rowansiwakoti" --> if you want to see logs based upon a specific user
+
+
+stash works if you also have added. stash does not work if you have committed after adding
+When you dont want to add and commit after some changes/adding new features
+git stash --> this command removes all the added or changed code which are not added and committed.
+
+git stash save "Added feature name"
+git stash list --> to see stash list
+git stash apply stash@{0} --> When you want to add those changes/new features back.
+and after apply::::
+git stash drop stash@{0} --> for specific stash
+git stash clean --> drops/removes all stash
+
+
+if you have changed in multiple files, but you want a specific file to be stashed then,
+git stash -p  --> this command shows changes/added files on the command screen one by one asking if you want to stash each one or not
+if Yes type y and enter
+if No type n and enter
